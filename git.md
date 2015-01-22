@@ -27,78 +27,78 @@ In order to be operating system, IDE and language agnostic, this document focuss
 ## Git vocabulary
 
 <table>
-<th>
-  <td>Term</td>
-  <td>Definition</td>
-</th>
-<tr>
-  <td>Repo / Repository</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Public repo</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Private repo</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Push</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Pull</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Pull request</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Commit</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Diff</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Branch</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Checkout</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Fork</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>History / Commit log</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Remote</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>origin</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>master</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Untracked</td>
-  <td>Definition</td>
-</tr>
-<tr>
-  <td>Octocat</td>
-  <td>Definition</td>
-</tr>
+  <th>
+    <td>Term</td>
+    <td>Definition</td>
+  </th>
+  <tr>
+    <td>Repo / Repository</td>
+    <td>Definition: A collection of source files</td>
+  </tr>
+  <tr>
+    <td>Public repo</td>
+    <td>Definition: A collection of source files that are available to view by anyone</td>
+  </tr>
+  <tr>
+    <td>Private repo</td>
+    <td>Definition: A colleciton of source files that are available to view only by you and those that you have approved to view it</td>
+  </tr>
+  <tr>
+    <td>Push</td>
+    <td>Definition: Publish changes to the origin.</td>
+  </tr>
+  <tr>
+    <td>Pull</td>
+    <td>Definition: Pull down the most recent changes of the files</td>
+  </tr>
+  <tr>
+    <td>Pull request</td>
+    <td>Definition: Submitting changes to the main repo after working on a forked version.</td>
+  </tr>
+  <tr>
+    <td>Commit</td>
+    <td>Definition: Add files to commit and prepare to push to the origin.</td>
+  </tr>
+  <tr>
+    <td>Diff</td>
+    <td>Definition: The difference between files after a commit.</td>
+  </tr>
+  <tr>
+    <td>Branch</td>
+    <td>Definition: A seperate section of source files on the same Repo</td>
+  </tr>
+  <tr>
+    <td>Checkout</td>
+    <td>Definition: Select wich Branch to work on (git checkout master/branch1)</td>
+  </tr>
+  <tr>
+    <td>Fork</td>
+    <td>Definition: Clone a repo as your own.</td>
+  </tr>
+  <tr>
+    <td>History / Commit log</td>
+    <td>Definition: The commit log from users onto your Repo</td>
+  </tr>
+  <tr>
+    <td>Remote</td>
+    <td>Definition: Create a remote version of a branch.</td>
+  </tr>
+  <tr>
+    <td>origin</td>
+    <td>Definition: The location of the repo</td>
+  </tr>
+  <tr>
+    <td>master</td>
+    <td>Definition: The default name of the primary Branch.</td>
+  </tr>
+  <tr>
+    <td>Untracked</td>
+    <td>Definition: Files that aren't being tracked by git</td>
+  </tr>
+  <tr>
+    <td>Octocat</td>
+    <td>Definition: Githubs awesome cat thats also an octopus.</td>
+  </tr>
 </table>
 
 
@@ -124,12 +124,12 @@ Do not commit files that contain any sensitive information (usernames, passwords
 
 Using the command prompt, ensure that you are in the directory/folder you wish to initialise as a Git repository:
 
-    H:
-    cd H:\my-new-git-project
+H:
+cd H:\my-new-git-project
 
 Run the following command to initialise a new Git repository in the current directory (the period means use the current directory):
 
-    git init .
+git init .
 
 If successful, your terminal should output something similar to the following:
 
@@ -144,11 +144,11 @@ You need to tell Git your name and email address, but please note that if your r
 
 Set your name with the following command:
 
-    git config user.name "YOUR NAME"
+git config user.name "YOUR NAME"
 
 Set your email address with the following command:
 
-    git config user.email "YOUR EMAIL ADDRESS"
+git config user.email "YOUR EMAIL ADDRESS"
 
 
 ### Projects with existing source-code
@@ -157,11 +157,11 @@ If you have initialised your git repository inside a directory containing existi
 
 Add all untracked files to your Git repository (the period means add all files in the current directory):
 
-    git add .
+git add .
 
 Commit the added files with a commit message of 'Initial commit' (the -m flag indicates that we wish to supply a message)
 
-    git commit -m "Initial commit"
+git commit -m "Initial commit"
 
 
 * * *
@@ -178,7 +178,7 @@ In an editor/IDE of your choice, create a new file (PHP, JS, HTML or CSS) in the
 
 You can use the *git status* command to determine the current state of your Git repository. With your command line open run the following command:
 
-    git status
+git status
 
 Amongst other information, you should notice the following line under "Untracked files:" in the output of the git status command:
 
@@ -193,11 +193,11 @@ Use the git status command to check the status of your Git project as you make c
 
 Use the git add command to add the new file to your Git repository (where my_file.php is the name of your new file):
 
-    git add my_file.php
+git add my_file.php
 
 Commit the added file with a commit message of 'Adding a file to git repository' (the -m flag indicates that we wish to supply a message)
 
-    git commit -m "Adding a file to git repository"
+git commit -m "Adding a file to git repository"
 
 ### Check the status of your repository
 
@@ -303,15 +303,15 @@ Due to the setup in the labs you should use the HTTPS version as it is the easie
 
 For Github the command should look something like:
 
-    git remote add origin https://github.com/your_username/your_repo_name.git
+git remote add origin https://github.com/your_username/your_repo_name.git
 
 For Bitbucket the command should look something like:
 
-    git remote add origin https://your_username@bitbucket.org/your_username/your_repo_name.git
+git remote add origin https://your_username@bitbucket.org/your_username/your_repo_name.git
 
 With the remote added we then want to push all of our commits to the server. Execute the following command:
 
-    git push -u origin master
+git push -u origin master
 
 'origin' in the above commands refers to the local reference for our remote origin (the remote repository). You could name this github or bitbucket, or production and staging (for testing within different environemtns) or anything else you desire.
 
@@ -327,7 +327,7 @@ If you browse back to your repository commit history then you should see this ch
 
 With the change made online, in your terminal/command prompt run the following command to pull any new commits from the remote origin:
 
-    git pull origin master
+git pull origin master
 
 Now imagine that several other people within your team were making changes and committing them to source control throughout the day (rather than you making all of the changes).
 
