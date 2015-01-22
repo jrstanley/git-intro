@@ -87,7 +87,7 @@ In order to be operating system, IDE and language agnostic, this document focuss
 </tr>
 <tr>
   <td>origin</td>
-  <td>Definition</td>
+  <td>The origin is the original remote repository.</td>
 </tr>
 <tr>
   <td>master</td>
