@@ -35,63 +35,63 @@ In order to be operating system, IDE and language agnostic, this document focuss
 </th>
 <tr>
   <td>Repo / Repository</td>
-  <td>Definition</td>
+  <td>A storage space for code or files which also tracks the difference from versions of the files</td>
 </tr>
 <tr>
   <td>Public repo</td>
-  <td>Definition</td>
+  <td>A public storage space which allows anybody to see your code, make pull requests or forks</td>
 </tr>
 <tr>
   <td>Private repo</td>
-  <td>Definition</td>
+  <td>A private storage space which you can share with collaborators that you choose</td>
 </tr>
 <tr>
   <td>Push</td>
-  <td>Definition</td>
+  <td>Add new files or changes to existing files from your local copy ready to be commited to the remote repository</td>
 </tr>
 <tr>
   <td>Pull</td>
-  <td>Definition</td>
+  <td>Download a copy of new files or changes to existing files from the remote repository to your local copy</td>
 </tr>
 <tr>
   <td>Pull request</td>
-  <td>Definition</td>
+  <td>A request to the owners of a repository to make changes to code</td>
 </tr>
 <tr>
   <td>Commit</td>
-  <td>Definition</td>
+  <td>Add new files or changes to existing files from your local copy onto the remote repository</td>
 </tr>
 <tr>
   <td>Diff</td>
-  <td>Definition</td>
+  <td>A representation of the difference between two versions of a file</td>
 </tr>
 <tr>
   <td>Branch</td>
-  <td>Definition</td>
+  <td>A different storage space inside a repository for different implementations or code changes</td>
 </tr>
 <tr>
   <td>Checkout</td>
-  <td>Definition</td>
+  <td>Update files in the working tree to match the version in the index or the specified tree</td>
 </tr>
 <tr>
   <td>Fork</td>
-  <td>Definition</td>
+  <td>Make your own repository form an existing repository</td>
 </tr>
 <tr>
   <td>History / Commit log</td>
-  <td>Definition</td>
+  <td>A list of changes to files and the corresponding user who changes them</td>
 </tr>
 <tr>
   <td>Remote</td>
-  <td>Definition</td>
+  <td>A remote server (e.g. GitHub or BitBucket)</td>
 </tr>
 <tr>
   <td>origin</td>
-  <td>Definition</td>
+  <td>The remote server (location) of where commits are pushed to</td>
 </tr>
 <tr>
   <td>master</td>
-  <td>Definition</td>
+  <td>The master branch of a repository, which should contain the stable, deployable version of the code</td>
 </tr>
 <tr>
   <td>Untracked</td>
@@ -99,7 +99,7 @@ In order to be operating system, IDE and language agnostic, this document focuss
 </tr>
 <tr>
   <td>Octocat</td>
-  <td>Definition</td>
+  <td>The GitHub mascot! <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="64"></td>
 </tr>
 </table>
 
