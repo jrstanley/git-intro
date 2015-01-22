@@ -85,7 +85,7 @@ In order to be operating system, IDE and language agnostic, this document focuss
 </tr>
 <tr>
   <td>origin</td>
-  <td>Definition</td>
+  <td>The origin is the original remote repository.</td>
 </tr>
 <tr>
   <td>master</td>
@@ -389,4 +389,3 @@ In the event that your pull request is declined you can still continue to develo
 * .gitignore files:
 * Git workflows: https://confluence.atlassian.com/display/BITBUCKET/Work+with+pull+requests
 * GitHub flow: https://guides.github.com/introduction/flow/index.html
-* Luke
